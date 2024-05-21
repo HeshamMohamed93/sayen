@@ -330,7 +330,7 @@ return [
     'type_service' => 'نوع الصيانة',
     'service_report'=>'تقرير الخدمة',
     'show_report' => 'عرض التقرير',
-    'remove_test_orders' => 'حذف طلبات test',
+    'remove_test_orders' => 'حذف طلبات ',
     'work_details'=>'وصف العميل',
     'materials_used' => 'المواد المستخدمة',
     'type_order'=>'نوع الطلب',
