@@ -1,0 +1,25 @@
+$mainColor : #053373;
+$secondColor : #c3a058;
+
+
+.bg-white{
+  background: #fff;
+}
+.bg-gray{
+  background: #F4F4F4;
+}
+.bg-main{
+  background: $mainColor;
+}
+.text-black{
+  color: #000;
+}
+.text-main{
+  color: $mainColor;
+}
+.text-second{
+  color: $secondColor;
+}
+.text-white{
+ color:  white;
+}

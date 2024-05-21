@@ -1,0 +1,104 @@
+.form-control:disabled, .form-control[readonly]
+{
+    background-color: #ffff !important;
+    opacity: 1;
+}
+
+.status-filter
+{
+    margin-left: 30%;
+}
+
+select.form-control:not([size]):not([multiple])
+{
+    height: calc(2.95rem + 5px) !important;
+}
+
+.status-filter select
+{
+    width: 300px;
+    height: 45px !important;
+}
+
+.notification-time
+{
+    color: gray;
+    font-size: 11px;
+    margin-right: 10%;
+}
+
+.disable-section
+{
+    pointer-events:none;
+}
+
+input[type='datetime-local'], input[type='date']
+{
+    text-align: right;
+}
+
+.m-dropdown.m-dropdown--align-right .m-dropdown__wrapper
+{
+    left: 0;
+    right: auto;
+}
+
+.fc-header-center
+{
+    display: none !important;
+}
+
+.fc-event-title
+{
+    float: right;
+    direction: rtl;
+}
+
+input.image[type="file"]
+{
+    height: 1%;
+    width: 19%;
+}
+.row{
+    margin: 0;
+}
+.m-portlet .m-portlet__head .m-portlet__head-caption{
+    float: right;
+}
+.filter-div{
+    display: block
+}
+.filter-btn{
+    cursor: pointer;
+}
+.select2-selection.select2-selection--single span {
+    margin-top: -15px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    margin-top: 11px;
+}
+.selected-form {
+    background: #cee6ff;
+  }
+  .dot {
+    height: 10px;
+    width: 10px;
+    background-color: #09e40c;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .redDot {
+    height: 10px;
+    width: 10px;
+    background-color: #f70b0b;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .blueDot {
+    height: 10px;
+    width: 10px;
+    background-color: #8224e7;
+    border-radius: 50%;
+    display: inline-block;
+  }

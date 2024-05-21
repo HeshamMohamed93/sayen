@@ -1,0 +1,42 @@
+.header{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.featureCard{
+  margin: 20px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(204, 204, 204, 0.6);
+}
+
+.carousel-indicators {
+  .active{
+    background: #242c40;
+  }
+  .indicator{
+    margin: 0 3px !important;
+    //padding: 0;
+    width: 20px!important;
+    background: #242c40;
+
+  }
+}
+
+.about{
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.icon{
+  background: $mainColor;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shadow{
+  box-shadow: 0 10px 10px rgba(204, 204, 204, 0.6);
+}
